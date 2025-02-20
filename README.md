@@ -70,8 +70,8 @@ analysis : whether to call function self.analysis()
 [CONFIG_VALUE]
 in this section, set all the params you can see in config.py through function set()
 path : file path pointing to a binary image as simulation map, such as ./map/maze.png
-[SCENE]
 
+[SCENE]
 scene : a string choose from config.set_scene()
 astar_file : file path pointing to a csv that stored previously calculated A* results, such as ./data/astar_maze_rl140.csv
 pos_path : file path pointing to a csv, the contents of which will be used as the initial location of the agent, such as ./data/Amaze_group_pos0_v1.csv
